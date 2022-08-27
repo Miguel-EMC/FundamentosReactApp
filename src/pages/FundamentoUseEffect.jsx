@@ -8,8 +8,8 @@ const FundamentoUseEffect = () => {
   return (
     // <Intro/>
     // <IntroUseEffect/>
-     //<Time/>
-    <FetchUsers/>
+    // <Time/>
+     <FetchUsers/>
   )
 }
 
