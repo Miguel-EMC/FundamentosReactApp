@@ -5,6 +5,7 @@ import FormularioLogin from "./pages/FormularioLogin";
 import FundamentoUseEffect from "./pages/FundamentoUseEffect";
 import FundamentoUseState from "./pages/FundamentoUseState";
 import FundamentosCustomHooks from "./pages/FundamentosCustomHooks.jsx";
+import FundamentoUseContext from "./pages/FundamentoUseContext.jsx";
 import LandingPage from "./pages/LandingPage";
 
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="usestate" element={<FundamentoUseState />} />
           <Route path="useffect" element={<FundamentoUseEffect />} />
           <Route path="customHooks" element={<FundamentosCustomHooks/>} />
+          <Route path="usecontext" element={<FundamentoUseContext/>} />
         </Route>
 
       </Routes>
